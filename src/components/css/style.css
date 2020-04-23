@@ -1,0 +1,21 @@
+.header-part{
+color: blue;
+}
+.content{
+    color: red;
+}
+.status{
+    color:rgb(24, 46, 107);
+}
+button{
+    padding: 10px;
+    margin: 50px;
+    border: rgb(68, 84, 175);
+    border-style: solid;
+    border-radius: 20px;
+    background-color:white;
+}
+button:hover{
+    background-color: rgb(34, 43, 99);
+    color: white;
+}
