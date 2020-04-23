@@ -1,0 +1,26 @@
+.header-part{
+    color: blue;
+    }
+    .content{
+        color: red;
+        display: inline-block;
+    }
+    .status{
+        color:rgb(24, 46, 107);
+    }
+    button{
+        padding: 10px;
+        margin: 30px;
+        border: rgb(68, 84, 175);
+        border-style: solid;
+        border-radius: 50%;
+        background-color:white;
+    }
+    button:hover{
+        background-color: rgb(34, 43, 99);
+        color: white;
+    }
+    h2{
+        display: inline-block;
+        font-size: 20px;
+    }
