@@ -1,0 +1,31 @@
+* {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+.App {
+  display: flex;
+  padding-top: 270px;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 75px;
+}
+
+.bttn {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thick;
+  border-color: var(--border-color);
+  outline: none;
+}
