@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+
+}
+p{
+    display: inline;
+    font-size: 75px;
+   
+    
+  
+}
+button{
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 75px;
+    margin: 25px;
+
+}
+
+.container{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+  
+}
+.subcontainer{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
