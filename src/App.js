@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  constructor(props){
+    super(props);
+    this.state={
+      count:0
+    }
+  }
+
+  add=()=>{
+    this.setState({count:this.state.count+1});
+  }
+
+  subtract=()=>{
+    this.setState({count:this.state.count-1});
+  }
+  render(){
+    const disableBttn =this.state.count==0
+    return(
+         <div className="app-container">
+         <button  disabled={disableBttn} onClick={this.subtract} className="bttn bttn-reducer">-</button>
+         <div className="count">{this.state.count}</div>
+         <button onClick={this.add} className="bttn bttn-adder">+</button>
+         </div>
+    );
+  }
 }
 
 export default App;
