@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 250px;
+}
+
+.button {
+    border-radius: 50%;
+    /* border-color: black; */
+    border: solid 4px black;
+    width: 100px;
+    height: 100px;
+    font-size: 75px;
+    text-align: center;
+    margin: auto;
+}
+
+.counter {
+    font-size: 75px;
+}
+
+.button:active {
+    background: gray;
+}
