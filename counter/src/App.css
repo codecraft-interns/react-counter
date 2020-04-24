@@ -1,0 +1,19 @@
+*{
+  color:#3d3d3d;
+  font-size: 75px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 330px;
+  margin: 20% auto;
+ align-items: center;
+}
+.btn-decrement{
+  border: 8px solid #3d3d3d;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
