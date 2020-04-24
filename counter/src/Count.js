@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 class Count extends Component {
-    count = 0
+    counter = 0
     constructor() {
         super()
         this.state = {
