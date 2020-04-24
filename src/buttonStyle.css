@@ -1,0 +1,25 @@
+
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 250px;
+}
+.value{
+    font-size: 75px;
+    
+}
+button
+{
+    
+    border:1px solid black;
+    border-radius:50%;
+    width:100px;
+    height: 100px;
+    font-size: 75px;
+    text-align: center;
+    margin: auto;
+    
+}
